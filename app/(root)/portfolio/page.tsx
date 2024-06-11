@@ -29,6 +29,9 @@ export const metadata: Metadata = {
 const Page = () => {
     return (
         <main
+
+
+        
             className={
                 'relative h-full py-6 flex items-center bg-white dark:bg-black justify-center w-full group'
             }
