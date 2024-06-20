@@ -132,7 +132,7 @@ export const projects = [
         projectName: 'Impactguru ',
         projectDesc:
             ' Impactguru is an online fundraising platform that empowers people, like you, to give to non-profits, individual causes, social enterprises, and start-ups. Our crowdfunding platform allows you to easily raise money online from individuals and organizations that share your passion, each making small donations that add up to a lot, in turn addressing critical social challenges in India.',
-        projectThumbnail: '/projects/assets/impactguru/ig-logo.webp',
+        projectThumbnail: '/projects/assets/impactguru/ig-logo.png',
         // duration: '4 Months',
         techstack: 'React, Bootstrap, Scss, HTML, JavaScript, JQuery, Git, Github, PHP, MySQL',
         workDone: 'Frontend',
