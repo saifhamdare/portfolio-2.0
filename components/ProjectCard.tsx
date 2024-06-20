@@ -68,7 +68,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ data }) => {
                                         {data.images.map((img) => (
                                             <div className='flex justify-center' key={img}>
                                                 <Image
-                                                    className='h-96 text-center '
+                                                    className='md:h-96 mix-blend-multiply h-64 text-center '
                                                     src={img}
                                                     alt={data.projectName}
                                                 />
@@ -103,9 +103,9 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ data }) => {
                                                 <span className='text-gray-500 dark:text-gray-400'>
                                                     Duration:
                                                 </span>
-                                                <span className='col-span-2'>
+                                                {/* <span className='col-span-2'>
                                                     {data.duration}
-                                                </span>
+                                                </span> */}
                                             </li>
                                             <li className='grid grid-cols-3'>
                                                 <span className='text-gray-500 dark:text-gray-400'>
