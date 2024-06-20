@@ -35,7 +35,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ data }) => {
                     <img
                         src={data.projectThumbnail}
                         alt={data.projectName}
-                        className={`hover:scale-95 hover:rounded-2xl transform object-cover transition duration-200`}
+                        className={`hover:scale-95 hover:rounded-2xl m-auto transform object-cover transition duration-200`}
                     />
                     <div className='p-4'>
                         <h2 className='font-bold my-4 text-lg text-zinc-700'>
@@ -64,10 +64,11 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ data }) => {
                         </ModalHeader>
                         <ModalBody>
                                 {data.images && data.images.length ? (
-                                    <Carousel autoPlay swipeable>
+                                    <Carousel  autoPlay swipeable>
                                         {data.images.map((img) => (
-                                            <div key={img}>
+                                            <div className='flex justify-center' key={img}>
                                                 <Image
+                                                    className='h-96 text-center '
                                                     src={img}
                                                     alt={data.projectName}
                                                 />
@@ -76,6 +77,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ data }) => {
                                     </Carousel>
                                 ) : (
                                     <Image
+                                        
                                         src={data.projectThumbnail}
                                         alt={data.projectName}
                                     />
