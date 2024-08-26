@@ -6,7 +6,7 @@ export const about = {
      When I'm not coding, you'll find me savoring a cup of tea, exploring new cafes. Just another day, 
     embracing life's adventures one line of code at a time!`,
     socials: {
-        linkedIn: 'https://in.linkedin.com/in/saif-hamdare-245304136',
+        linkedIn: 'https://in.linkedin.com/in/saif-hamdare',
         mail: 'saifhamdare@gmail.com',
         github: 'https://github.com/saifhamdare',
     },
@@ -24,16 +24,16 @@ export const about = {
         frontend: [
             'HTML',
             'CSS',
-            'Scss',
-            'Bootstrap',
-            'Tailwind',
             'Javascript',
-            'ES6',
-            'Typescript',
-            'jQuery',
             'React Js',
             'Next Js',
             'Redux',
+            'ES6',
+            'Typescript',
+            'jQuery',
+            'Scss',
+            'Bootstrap',
+            'Tailwind',
             'Material UI',
             'Ant Design',
             'Framer Motion',
@@ -45,11 +45,11 @@ export const about = {
             'Firebase'
                 ],
         tools: ['Git', 'Github', 'Postman', 'Jira'],
-        // soft: [
-        //     'Time management',
-        //     'Client/Stakeholders Interactions',
-        //     'Communication',
-        // ],
+        soft: [
+            'Time management',
+            'Client/Stakeholders Interactions',
+            'Communication',
+        ],
     },
 };
 
@@ -70,13 +70,13 @@ export const education = [
 
 export const work = [
     {
-        title: 'Software Engineer 1- CarePal Secure',
+        title: 'Software Engineer 1- Impactguru',
         location: 'Mumbai, Maharashtra ',
         date: 'Dec 2022 - Present',
-        description: `CarePal Secure offers bundled health services, combining insurance coverage with discounts on health-related subscriptions and testing. Users can access comprehensive health plans, receive discounted rates on wellness services and medical tests, and enjoy an all-in-one solution for their health needs. With an easy-to-use platform and exceptional customer support, we make managing health affordable and convenient.`,
+        description: `ImpactGuru have sister concern side of CarePal Secure,that offers bundled health services, combining insurance coverage with discounts on health-related subscriptions and testing. Users can access comprehensive health plans, receive discounted rates on wellness services and medical tests, and enjoy an all-in-one solution for their health needs. With an easy-to-use platform and exceptional customer support, we make managing health affordable and convenient.`,
     },
     {
-        title: 'Frontend Developer (Intern) - Impactguru Crowdfunding Platform',
+        title: 'Frontend Developer (Intern) - Impactguru ',
         location: 'Mumbai, Maharashtra',
         date: 'Sept 2022 - Dec 2022',
         description: `ImpactGuru  is a crowdfunding platform for medical, social, and personal causes. It empowers users with user-friendly tools to create effective campaigns and reach fundraising goals efficiently, fostering positive social change. `,
