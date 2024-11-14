@@ -54,7 +54,7 @@ export default function Home() {
                             size='sm'
                             className='mt-16 inline-flex md:hidden'
                             as={Link}
-                            href='/saif_resume.pdf'
+                            href='/Saif_Hamdare_Frontend_Developer_2.pdf'
                             download={'saif_resume'}
                         >
                             Download Resume <DownloadIcon size={18} />
@@ -65,7 +65,7 @@ export default function Home() {
                             size='lg'
                             className='mt-16 hidden md:inline-flex'
                             as={Link}
-                            href='/saif_resume.pdf'
+                            href='/Saif_Hamdare_Frontend_Developer_2.pdf'
                             download={'saif_resume'}
                         >
                             Download Resume <DownloadIcon size={18} />
