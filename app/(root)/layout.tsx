@@ -22,7 +22,7 @@ export const metadata: Metadata = {
         "Frontend Developer & Life Enthusiast: I’m the guy who’s been crafting beautiful, responsive websites for over 2 years, working with cool tools like ReactJS, NextJS, Shadcn, Material UI, and Ant Design.",
       images: [
         {
-          url: "https://i.ibb.co/5k6rdvF/tabicon.png",
+          url: "https://cdn.freebiesupply.com/logos/large/2x/s-bahn-1-logo-png-transparent.png",
           alt: "Portfolio logo",
         },
       ],
@@ -34,7 +34,7 @@ export const metadata: Metadata = {
         "Frontend Developer & Life Enthusiast: I’m the guy who’s been crafting beautiful, responsive websites for over 2 years, working with cool tools like ReactJS, NextJS, Shadcn, Material UI, and Ant Design.",
       images: [
         {
-          url: "https://i.ibb.co/5k6rdvF/tabicon.png",
+          url: "https://cdn.freebiesupply.com/logos/large/2x/s-bahn-1-logo-png-transparent.png",
           alt: "Portfolio logo",
         },
       ],
@@ -47,7 +47,8 @@ export default function RootLayout({
     children: React.ReactNode;
 }>) {
     return (
-      <html lang='en'>
+   <html lang='en'>
+
       <head>
         {/* Google Tag Manager */}
         <Script

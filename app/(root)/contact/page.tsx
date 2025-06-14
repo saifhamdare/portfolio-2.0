@@ -6,22 +6,22 @@ import { Metadata } from 'next';
 import React from 'react';
 
 export const metadata: Metadata = {
-    title: "SS Portfolio | Contact",
+    title: "SH Portfolio",
     openGraph: {
-      title: "SS Portfolio | Contact",
+      title: "SH Portfolio",
       url: "https://saifhamdare-portfolio.netlify.app/contact",
       images: [
         {
-          url: "https://i.ibb.co/5k6rdvF/tabicon.png",
+          url: "https://cdn.freebiesupply.com/logos/large/2x/s-bahn-1-logo-png-transparent.png",
           alt: "portfolio-logo",
         },
       ],
     },
     twitter: {
-      title: "SS Portfolio | Contact",
+      title: "SH Portfolio",
       images: [
         {
-          url: "https://i.ibb.co/5k6rdvF/tabicon.png",
+          url: "https://cdn.freebiesupply.com/logos/large/2x/s-bahn-1-logo-png-transparent.png",
           alt: "portfolio-logo",
         },
       ],
