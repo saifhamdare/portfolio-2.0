@@ -2,6 +2,7 @@ export const about = {
     name: 'Saif Hamdare',
     position: 'Frontend Engineer',
     bio: `Frontend Developer & Life Enthusiast: I’m the guy who's been immersed in code for over 3 years, 
+
     crafting sleek interfaces with the latest frontend technologies. From startups to national corporations.
      When I'm not coding, you'll find me savoring a cup of tea, exploring new cafes. Just another day, 
     embracing life's adventures one line of code at a time!`,
@@ -83,6 +84,7 @@ export const work = [
         title: 'Software Engineer 1- Impactguru',
         location: 'Mumbai, Maharashtra ',
         date: 'Dec 2022 - Nov 2024',
+
         description: `ImpactGuru have sister concern side of CarePal Secure,that offers bundled health services, combining insurance coverage with discounts on health-related subscriptions and testing. Users can access comprehensive health plans, receive discounted rates on wellness services and medical tests, and enjoy an all-in-one solution for their health needs. With an easy-to-use platform and exceptional customer support, we make managing health affordable and convenient.`,
     },
     {
@@ -179,3 +181,4 @@ export const projects = [
 
 
 ];
+
