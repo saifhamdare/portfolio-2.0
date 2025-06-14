@@ -12,7 +12,7 @@ export const metadata: Metadata = {
       url: "https://saifhamdare-portfolio.netlify.app",
       images: [
         {
-          url: "https://i.ibb.co/5k6rdvF/tabicon.png",
+          url: "https://cdn.freebiesupply.com/logos/large/2x/s-bahn-1-logo-png-transparent.png",
           alt: "portfolio-logo",
         },
       ],
@@ -21,7 +21,7 @@ export const metadata: Metadata = {
       title: "SS Portfolio | Home",
       images: [
         {
-          url: "https://i.ibb.co/5k6rdvF/tabicon.png",
+          url: "https://cdn.freebiesupply.com/logos/large/2x/s-bahn-1-logo-png-transparent.png",
           alt: "portfolio-logo",
         },
       ],

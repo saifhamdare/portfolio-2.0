@@ -7,22 +7,22 @@ import { Metadata } from 'next';
 import React from 'react';
 
 export const metadata: Metadata = {
-    title: "SS Portfolio | About",
+    title: "SH Portfolio",
     openGraph: {
-      title: "SS Portfolio | About",
+      title: "SH Portfolio",
       url: "https://saifhamdare-portfolio.netlify.app/about",
       images: [
         {
-          url: "https://i.ibb.co/5k6rdvF/tabicon.png",
+          url: "https://cdn.freebiesupply.com/logos/large/2x/s-bahn-1-logo-png-transparent.png",
           alt: "portfolio-logo",
         },
       ],
     },
     twitter: {
-      title: "SS Portfolio | About",
+      title: "SH Portfolio",
       images: [
         {
-          url: "https://i.ibb.co/5k6rdvF/tabicon.png",
+          url: "https://cdn.freebiesupply.com/logos/large/2x/s-bahn-1-logo-png-transparent.png",
           alt: "portfolio-logo",
         },
       ],
@@ -54,9 +54,9 @@ const Page = () => {
                         <ul className='space-y-2'>
                             <li className='p-4 bg-[#3f3f46] rounded'>
                                 <span className='text-gray-500 dark:text-gray-400'>
-                                    First Name:
+                                    Name:
                                 </span>{' '}
-                                {about.details.firstname}
+                                {about.details.firstname} {about.details.lastname}
                             </li>
                             <li className='p-4 bg-[#3f3f46] rounded'>
                                 <span className='text-gray-500 dark:text-gray-400'>
@@ -64,12 +64,7 @@ const Page = () => {
                                 </span>{' '}
                                 {about.details.experience}
                             </li>
-                            <li className='p-4 bg-[#3f3f46] rounded'>
-                                <span className='text-gray-500 dark:text-gray-400'>
-                                    Nationality:
-                                </span>{' '}
-                                {about.details.nationality}
-                            </li>
+                        
                             <li className='p-4 bg-[#3f3f46] rounded'>
                                 <span className='text-gray-500 dark:text-gray-400'>
                                     Degree:
@@ -78,15 +73,15 @@ const Page = () => {
                             </li>
                         </ul>
                         <ul className='space-y-2 mt-3 md:mt-0'>
-                            <li className='p-4 bg-[#3f3f46] rounded'>
+                            {/* <li className='p-4 bg-[#3f3f46] rounded'>
                                 <span className='text-gray-500 dark:text-gray-400'>
                                     Last Name:
                                 </span>{' '}
                                 {about.details.lastname}
-                            </li>
+                            </li> */}
                             <li className='p-4 bg-[#3f3f46] rounded'>
                                 <span className='text-gray-500 dark:text-gray-400 mr-1'>
-                                    email:
+                                    Email:
                                 </span>
                                 <Link
                                     className='text-gray-200'
@@ -95,18 +90,24 @@ const Page = () => {
                                     {about.details.email}
                                 </Link>
                             </li>
+                                <li className='p-4 bg-[#3f3f46] rounded'>
+                                <span className='text-gray-500 dark:text-gray-400'>
+                                    Nationality:
+                                </span>{' '}
+                                {about.details.nationality}
+                            </li>
                             <li className='p-4 bg-[#3f3f46] rounded'>
                                 <span className='text-gray-500 dark:text-gray-400'>
                                     Based:
                                 </span>{' '}
                                 {about.details.address}
                             </li>
-                            <li className='p-4 bg-[#3f3f46] rounded'>
+                            {/* <li className='p-4 bg-[#3f3f46] rounded'>
                                 <span className='text-gray-500 dark:text-gray-400'>
                                     Interests:
                                 </span>{' '}
                                 {about.details.interests}
-                            </li>
+                            </li> */}
                         </ul>
                     </div>
                 </div>
