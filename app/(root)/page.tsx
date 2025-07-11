@@ -65,7 +65,7 @@ export default function Home() {
                             size='lg'
                             className='mt-16 hidden md:inline-flex'
                             as={Link}
-                            href='/Saif_Hamdare_Frontend_Developer_2.pdf'
+                            href='/Saif_Hamdare_Frontend_3YOE.pdf'
                             download={'saif_resume'}
                         >
                             Download Resume <DownloadIcon size={18} />
