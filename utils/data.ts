@@ -8,13 +8,13 @@ export const about = {
     embracing life's adventures one line of code at a time!`,
     socials: {
         linkedIn: 'https://in.linkedin.com/in/saif-hamdare',
-        mail: 'saifhamdare@gmail.com',
+        mail: 'sde.saifhamdare@gmail.com',
         github: 'https://github.com/saifhamdare',
     },
     details: {
         firstname: 'Saif',
         lastname: 'Hamdare',
-        email: 'saifhamdare@gmail.com',
+        email: 'sde.saifhamdare@gmail.com',
         nationality: 'Indian',
         degree: "Bachelor of Science in Information Technology",
         address: 'Mumbai, Maharashtra',
@@ -23,14 +23,14 @@ export const about = {
     },
     skills: {
         frontend: [
-            'HTML',
-            'CSS',
             'Javascript',
+            'Typescript',
             'React Js',
             'Next Js',
+            'HTML',
+            'CSS',
             'Redux',
             'ES6',
-            'Typescript',
             'jQuery',
             'Scss',
             'Bootstrap',
@@ -71,33 +71,44 @@ export const education = [
 
 export const work = [
    {
+    title: 'Software Engineer – CRISIL Ltd ',
+    location: 'Mumbai, Maharashtra',
+    date: 'Aug 2025 – Present',
+    description: `*   Working on internal tools for CRISIL using ReactJS, NextJS.
+*   Developing and maintaining web applications to enhance internal processes.
+    *   Collaborating with cross-functional teams to deliver high-quality software solutions.
+    *  Implementing responsive design and ensuring cross-browser compatibility.
+    *  Participating in code reviews and contributing to best practices.
+    *  Troubleshooting and debugging issues to ensure optimal performance.`,
+},
+   {
     title: 'Frontend Developer – Riggle ',
     location: 'Mumbai, Maharashtra',
-    date: 'Dec 2024 – Present',
+    date: 'Dec 2024 – Aug 2025',
     description: `*   Leading frontend development across core modules like Whats chats,Sales targets,Custom reports generator, HRMS.
-*   Integrated WhatsApp Chats workflows, Tally Integration sync, and custom reports with actionable dashboards.
-*   Built  payments module using Razorpay & Cashfree with ledger tracking.
-*   Delivered dynamic reporting plugs  for real-time insights.
-*   Mentored an intern, improving component design, debugging, and deployment readiness.`,
+    *   Integrated WhatsApp Chats workflows, Tally Integration sync, and custom reports with actionable dashboards.
+    *   Built  payments module using Razorpay & Cashfree with ledger tracking.
+    *   Delivered dynamic reporting plugs  for real-time insights.
+    *   Mentored an intern, improving component design, debugging, and deployment readiness.`,
 },
     {
         title: 'Software Engineer 1- Impactguru',
         location: 'Mumbai, Maharashtra ',
         date: 'Dec 2022 - Nov 2024',
+        description: `*   ImpactGuru have sister concern side of CarePal Secure,that offers bundled health services, combining insurance coverage with discounts on health-related subscriptions and testing. Users can access comprehensive health plans, receive discounted rates on wellness services and medical tests, and enjoy an all-in-one solution for their health needs. With an easy-to-use platform and exceptional customer support, we make managing health affordable and convenient.`,
 
-        description: `ImpactGuru have sister concern side of CarePal Secure,that offers bundled health services, combining insurance coverage with discounts on health-related subscriptions and testing. Users can access comprehensive health plans, receive discounted rates on wellness services and medical tests, and enjoy an all-in-one solution for their health needs. With an easy-to-use platform and exceptional customer support, we make managing health affordable and convenient.`,
     },
     {
         title: 'Frontend Developer (Intern) - Impactguru ',
         location: 'Mumbai, Maharashtra',
         date: 'Sept 2022 - Dec 2022',
-        description: `ImpactGuru  is a crowdfunding platform for medical, social, and personal causes. It empowers users with user-friendly tools to create effective campaigns and reach fundraising goals efficiently, fostering positive social change. `,
+        description: `*   ImpactGuru  is a crowdfunding platform for medical, social, and personal causes. It empowers users with user-friendly tools to create effective campaigns and reach fundraising goals efficiently, fostering positive social change. `,
     },
     {
         title: 'Web Developer - Nestable Life',
         location: 'Mumbai, Maharashtra',
         date: 'Mar 2022 - Jun 2022',
-        description: `Nestable specialized in second-hand home services, offering thorough inspections and due diligence powered by our proprietary application. In just three months, we reduced inspection time by 30%, doubled the number of inspections completed, and improved report accuracy by 10%. Our focus on quality boosted customer satisfaction scores by 20%, while operational costs were cut by 25%. With Nestable, buying a pre-owned home became more transparent, reliable, and efficient.`,
+        description: `*   Nestable specialized in second-hand home services, offering thorough inspections and due diligence powered by our proprietary application. In just three months, we reduced inspection time by 30%, doubled the number of inspections completed, and improved report accuracy by 10%. Our focus on quality boosted customer satisfaction scores by 20%, while operational costs were cut by 25%. With Nestable, buying a pre-owned home became more transparent, reliable, and efficient.`,
     },
     
     
