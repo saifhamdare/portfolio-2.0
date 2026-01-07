@@ -32,6 +32,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ data }) => {
             {/* <FollowerPointerCard title={data.projectName}> */}
                 <div className='relative overflow-hidden h-full rounded-2xl transition duration-200 group bg-gray-200 hover:shadow-xl border border-zinc-100'>
                           <img
+
                         src={data.projectThumbnail}
                         alt={data.projectName}
                         className={`hover:scale-95 mix-blend-multiply  hover:rounded-2xl m-auto transform object-cover transition duration-200`}
@@ -76,11 +77,12 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ data }) => {
                                     </Carousel>
                                 ) : (
                                     <Image
+                                        className=''
                                         src={data.projectThumbnail}
                                         alt={data.projectName}
                                     />
                                 )}
-                                <ScrollShadow className="h-[400px] md:h-full">
+                                <ScrollShadow className="h-[300px] md:h-full">
 
                                 <div className='text-sm'>
                                     <p className='text-justify'>
@@ -97,14 +99,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ data }) => {
                                                     {data.association}
                                                 </span>
                                             </li>
-                                            {/* <li className='grid grid-cols-3'>
-                                                <span className='text-gray-500 dark:text-gray-400'>
-                                                    Duration:
-                                                </span>
-                                                <span className='col-span-2'>
-                                                    {data.duration}
-                                                </span>
-                                            </li> */}
+                               
                                             <li className='grid grid-cols-3'>
                                                 <span className='text-gray-500 dark:text-gray-400'>
                                                     Preview:
